@@ -1,12 +1,16 @@
 {
-  "name": "DNS-Amplification",
+  "name": "attacker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "attack.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.3.0"
+  }
 }
